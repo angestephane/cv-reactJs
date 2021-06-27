@@ -1,0 +1,85 @@
+.w{
+    width: 5rem !important;
+    height: 5rem !important;
+}
+
+.text-link {
+    text-decoration: inherit;
+}
+.list-group-item.active>span{
+    background-color: #0fbcf9 !important;
+    color: white !important;
+  }
+
+.text-link .list-group-item:hover{
+    text-decoration:none;
+}
+
+.fas, .fab, .far{
+    color: #0fbcf9 ;
+}
+
+.list-group-item.active>.fa-address-book, 
+.list-group-item.active>.fa-mountain, 
+.list-group-item.active>.fa-home{
+    color: #fff ;
+}
+
+.annee{
+    font-size: .87rem;
+}
+
+.annee span {
+    width: 36%;
+}
+
+.annee span:nth-child(2){
+    width: 20%;
+}
+.annee span:nth-child(3){
+    width: 44%;
+}
+
+.annee span:nth-child(2)::before, .annee span:nth-child(3)::before{
+    content: "";
+    background-color: #485460;
+    opacity: 0.3;
+    position: absolute;
+    width: 0.1rem;
+    height: 13.2rem;
+    transform: translate(1rem, 2rem);
+}
+
+.progressbare{
+    height: 0.4rem;
+    background-color: transparent;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.progressbare::after{
+    content: '';
+    position: absolute;
+    background-color: #0fbcf9;
+    border-radius: 2rem;
+    height: .2rem;
+    width: 0;
+    animation: line 2s ease-out forwards;
+
+}
+
+@keyframes line{
+    to{
+        width: 100%;
+    }
+}
+
+.frameworks .annee span:nth-child(2)::before, .frameworks .annee span:nth-child(3)::before{
+    content: "";
+    background-color: #485460;
+    opacity: 0.3;
+    position: absolute;
+    width: 0.1rem;
+    height: 6.2rem;
+    transform: translate(1rem, 2rem);
+}
