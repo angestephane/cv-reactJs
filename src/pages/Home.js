@@ -22,7 +22,7 @@ const Home = () => {
                         </p>
                     </div>
                     <div className="second">
-                        <h3 className="text-center">mon vecu</h3>
+                        <h3 className="text-center">un peu de moi</h3>
                         <p>Le Lorem Ipsum du faux texte employé dans la composition et la mise 
                         en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie 
                         depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte 
